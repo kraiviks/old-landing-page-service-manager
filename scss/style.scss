@@ -1,0 +1,30 @@
+@import "header";
+@import "cards";
+@import "counts";
+@import "services";
+@import "testimonials";
+@import "team";
+@import "contact";
+@import "footer";
+@import "media";
+
+* {
+	font-family: "Raleway", sans-serif;
+	//outline: 1px solid #f00;
+}
+
+.social {
+	a {
+		margin: 0 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1440px;
+	}
+}
+
+body {
+	min-width: 320px;
+}

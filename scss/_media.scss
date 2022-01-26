@@ -1,0 +1,209 @@
+@media (min-width: 1200px) { 
+    .counts{
+        .counts_wrap{
+            display: flex;
+            justify-content: center;
+        }
+    }
+ }
+
+ @media (min-width: 992px){
+    .testimonials-content{
+        // padding-top: 100px;
+    }
+ }
+
+ @media (min-width: 992px) and (max-width: 1200px) { 
+     .header{
+         video{
+             width: 500px;
+             height: 320px;
+         }
+     }
+     .testimonials-avatar-wrap{
+         .avatar{
+             width: 500px;
+             height: 200px!important;
+             margin-top: 20px!important;
+             .avatar-bg{
+                margin-left: 20px;
+             }
+         }
+     }
+     .team{
+         height: 560px;
+     }
+  }
+
+  @media (min-width: 576px) and (max-width: 991.98px) { 
+      .testimonials{
+          height: 720px;
+          .testimonials-content{
+              padding-top: 20px;
+          }
+          .testimonials-text-wrap{
+              text-align: center;
+              margin-top: 20px!important;
+              button{
+                display: block;
+                margin: 40px auto 0!important;
+              }
+          }
+          .testimonials-avatar-wrap{
+              margin: 0;
+              .avatar{
+                  margin-top: 0!important;
+                  margin-bottom: 10px!important;
+                  height: 170px;
+              }
+          }
+      }
+      .team{
+        height: 560px;
+        }
+   }
+
+   @media (max-width: 991.98px) { 
+       .header{
+           height: 1005px;
+           .header-content{
+               margin-top: 30px;
+               video{
+                    position: relative;
+                    top: 20px;
+               }
+           }
+       }
+    .media-width-p{
+        width: initial!important;
+    }
+    .footer{
+        .nav{
+            margin-left: 200px;
+        }
+        .social{
+            margin-top: 10px!important;
+        }
+    }
+}
+@media (max-width: 767.98px) { 
+    .header{
+        height: 750px;
+        .header-content{
+            margin-top: 60px;
+            video{
+                display: none;
+            }
+        }
+    }
+    .cards{
+        .card-deck{
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .services{
+        .card-body{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .testimonials{
+        height: 666px;
+        .testimonials-text-wrap{
+            margin-top: 35px!important;
+            button{
+                display: block;
+                margin: 15px auto 0!important;
+            }
+        }
+        .testimonials-avatar-wrap{
+            margin-top: 0!important;
+            .avatar{
+                margin: 10px !important;
+                .avatar-bg{
+                    padding: 15px !important;
+                }
+            }
+        }
+    }
+    .team{
+        height: 600px;
+    }
+    .footer{
+        .footer-wrap:nth-child(1){
+            margin-left: 20px;
+        }
+        .footer-wrap:nth-child(2){
+            margin-left: -20px;
+        }
+    }
+ }
+
+ @media (min-width: 320px) and (max-width: 575.98px){
+    .header{
+        height: 828px;
+        .header-content{
+            margin-top: 100px!important;
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    .cards{
+        .card{
+            width: initial;
+            min-width: initial;
+            max-width: 575px;
+        }
+    }
+    .services{
+        .card{
+            min-width: 320px;
+            max-width: 575px;
+        }
+    }
+    .testimonials{
+        height: 1000px;
+        .testimonials-text-wrap{
+            h1{
+                font-size: 35px!important;
+            }
+        }
+        .testimonials-avatar-wrap{
+            .avatar{
+                flex-direction: column;
+                margin: -1px !important;
+                img{
+                    margin-top: 5px!important;
+
+                }
+            }
+        }
+    }
+    .counts_wrap{
+        padding: 30px 60px!important;
+    }
+    .team_avatars{
+        .team-avatars-wrap{
+            height: initial!important;
+            img{
+                margin:0 4px!important;
+                width: 100px;
+                height: 100px;
+                border: 9px solid white!important;
+                box-shadow: 0 0 10px black;
+                filter: opacity(30%);
+                transition: 0.7s;
+                &:hover{   
+                    width: 100px!important;
+                    height: 100px!important;
+                    filter: opacity(100%);
+
+                }
+            }
+         }
+    }
+ }

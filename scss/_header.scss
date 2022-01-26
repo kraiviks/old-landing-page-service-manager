@@ -1,0 +1,73 @@
+.header {
+	height: 750px;
+	background-image: linear-gradient(
+			143deg,
+			rgba(0, 184, 212, 0.9) 0%,
+			rgba(29, 233, 182, 0.8) 100%
+		),
+		url(../img/header-bg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.btn-outline-primary {
+		border: 1px solid white;
+		color: white;
+		padding: 10px 20px;
+		&:hover {
+			background-color: #1de9b6;
+			border: 1px solid transparent;
+		}
+	}
+}
+
+.header-content {
+	margin-top: 165px;
+	color: white;
+	padding-left: 1rem;
+	h1 {
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size: 55px;
+		margin: 0;
+	}
+	p {
+		font-size: 18px;
+		font-weight: 400;
+		margin: 30px 0 40px;
+	}
+	.btn {
+		width: 150px;
+		height: 55px;
+		margin-right: 30px;
+		box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+		@media (max-width: 400px) {
+			margin: 5px 0px;
+		}
+	}
+}
+
+.nav-link {
+	color: white !important;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 0 22.5px;
+	&:hover {
+		color: black !important;
+		transition: 1s;
+	}
+}
+
+.sing_btn {
+	@media (max-width: 415px) {
+		display: none;
+	}
+}
+
+.mobile-sign_btn {
+	@media (max-width: 415px) {
+		display: block;
+	}
+	@media (min-width: 415px) {
+		display: none;
+	}
+}
